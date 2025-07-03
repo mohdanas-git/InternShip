@@ -17,3 +17,14 @@ Topic Covered:
 6. paragraph: It is a kind of a box where we write all our text.
 
 7. line break: When we want to display our text from the next line then we use <br> tag.
+
+Day 2:
+04 - 07 - 2025 (Friday)
+
+1. <a>: This is Anchor tag and it is used to link other webpages.
+
+2. <img>: This tag is used to display the image on the web page. Inside image tag we also provide the path of the image.
+
+3. <ol>: This is ordered list it is used to display the content in orderwise like: (1,2,3,4) (a,b,c,d) (i,ii,iii,iv).
+
+4. <ul>: This is unordered list this display list in unordered way using shape like disc, bullet, rectangle.
