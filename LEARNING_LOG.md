@@ -85,3 +85,17 @@ Proper Form Structure:
 <label><input></label>
 <button></button>
 </form>
+
+
+Day 7:
+14 - 07 - 2025 (Monday)
+CSS Syntax: The basic syntax for CSS is selector{property: value};
+
+Selector: It is used to target specific element from html to apply the styling.It is of 3 type Class, ID, Element.
+
+ID Selector is used to when we want to target one unique thing and we use # to target ID selector.
+
+Class Selector is used when we want to style multiple element similar.
+
+Element Selector is used target the html tags like <body>,<h2><p>,etc.
+
