@@ -99,3 +99,16 @@ Class Selector is used when we want to style multiple element similar.
 
 Element Selector is used target the html tags like <body>,<h2><p>,etc.
 
+
+
+Day 10:
+17-07-2025 (Thursday)
+block: Takes full width, starts on a new line (e.g., <div>).
+
+inline: Flows within text, only takes up as much width as content (e.g., <span>).
+
+inline-block: Behaves like inline but allows setting width and height.
+
+flex: Enables a flexible layout with items aligned in rows or columns.
+
+grid: Creates a two-dimensional layout with rows and columns for precise placement.
