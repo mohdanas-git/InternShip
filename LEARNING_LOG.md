@@ -99,7 +99,30 @@ Class Selector is used when we want to style multiple element similar.
 
 Element Selector is used target the html tags like <body>,<h2><p>,etc.
 
+Day 8:
+15 - 07 - 2025 (Tuesday)
 
+Colors: Colors are used to make website look different. This can be used as name like red, blue, green or hex code #FF0000 or rgb.
+
+Fonts: This decide how the text looks like size,style.
+
+Units: It help to set size
+    px: Fixed size, don't change if screen size changes.
+    em: relative to the parent element's font size.
+    rem: better than em and relative to the root HTML's font size.
+    %: relative to parent size.
+
+
+Day 9:
+16 - 07 - 2025 (Wednesday)
+
+Content: The innermost stuff inside the box.
+
+Padding: It's a space between content and border.
+
+Border: The line around padding.
+
+Margin: The outtermost space outside border and separating it from the other elements.
 
 Day 10:
 17-07-2025 (Thursday)
@@ -112,3 +135,19 @@ inline-block: Behaves like inline but allows setting width and height.
 flex: Enables a flexible layout with items aligned in rows or columns.
 
 grid: Creates a two-dimensional layout with rows and columns for precise placement.
+
+Day 11:
+18-07-2025 (Friday)
+Flexbox is used to set the item in the page horizontaly or vertically it work as an one dimensional array.
+we use flexbox by setting the display property as:
+display: flex;
+
+
+
+Day 12:
+21-07-2025 (Monday)
+CSS Grid for layout make the page into rows and columns which allow more control to developer to place the item on the webpage.
+For using CSS Grid structure we set the display as:
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto 200px;
