@@ -151,3 +151,9 @@ For using CSS Grid structure we set the display as:
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: auto 200px;
+
+Day 13:
+23-07-2025 (Wednesday)
+Media Queries are used to make the website responsive for all type of devices.
+@media (min-width: 768px) {
+}
