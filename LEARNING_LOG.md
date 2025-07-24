@@ -157,3 +157,10 @@ Day 13:
 Media Queries are used to make the website responsive for all type of devices.
 @media (min-width: 768px) {
 }
+
+Day 14:
+24-07-2025 (Thursday)
+Pseudoclass: It is a keyword added to the selector that add some effects over the element at user interaction.
+Syntax: selector:pseudo-class { property: value; }
+:hover: Applies styles when the user's mouse pointer is over the element.
+animations and transitions allow the changes to the element smoothly over a period of time.
