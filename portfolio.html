@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header> <!--header tag is used to defined the content on the top webpage-->
+        <nav class="navbar desktop"> <!--This tag contain the useful links to other page-->
+            <div class="logo">Portfolio</div>
+            <ul class="nav-items">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar mobile"> <!--This tag contain the useful links to other page-->
+            <div class="logo">Portfolio</div>
+        </nav>
+        <ul class="nav-items mobile">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+    </header>
+    <main><!--The main tag is used to keep the main content which is displayed in webpage-->
+
+        <!--Home-->
+        <section id="home">
+        <h2 class="home-heading">Hi, I am Mohd Anas</h2>
+            <br>
+        <p>A passionate Frontend Developer creating amazing web experiences.</p>
+        <a href="#projects" id="btn">View My Work</a>
+        </section>
+
+        <!--About-->
+        <section id="about">
+        <h3>About Me</h3>
+        <div class="container">
+            Hello! I'm Anas, a Frontend Developer with a strong passion for building beautiful and functional web applications. I specialize in front-end development with React, back-end with Node.js, full-stack development.
+
+            My journey in technology started during college, by building small projects. I love solving complex problems and continuously learning new technologies to deliver high-quality solutions. When I'm not coding, you can find me hiking, reading, playing guitar.
+        </div>
+        </section>
+
+        <!--Skills-->
+        <section id="skills">
+            <div class="container">
+                <h3>Skills</h3>
+                <div class="grid">
+                    <!-- Skill Card 1 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/81C784/ffffff?text=HTML" alt="HTML Icon" class="bg-green-100">
+                        <h3>HTML5</h3>
+                    </div>
+                    <!-- Skill Card 2 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/64B5F6/ffffff?text=CSS" alt="CSS Icon" class="bg-blue-100">
+                        <h3>CSS3</h3>
+                    </div>
+                    <!-- Skill Card 3 -->
+                    <div class="skill-card">
+                        <img src="https://placehold.co/60x60/FFD54F/ffffff?text=JS" alt="JavaScript Icon" class="bg-yellow-100">
+                        <h3>JavaScript</h3>
+                    </div>
+            </div>
+        </div>
+        </section>
+
+        <!--Projects-->
+        <section id="projects">
+            <div class="container">
+                <h3>Projects</h3>
+                <div class="grid">
+                    <div class="project-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb5-edDRrz9Ru2vbeFrg29wjtjTbYffb9qlw&s" alt="">
+                        <h3>Weather App</h3>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtj0GQEGx10u-vmAnQZnFFdJP0Syg_Q03ozQ&s" alt="">
+                        <h3>TicTacToe</h3>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlYtUCJM3LttkV39CYmSOHcAj5O-J7Ho8flw&s" alt="">
+                        <h3>StonePaperScissor</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact-->
+        <section id="contact">
+            <div class="container">
+                <h3>Get in Touch</h3>
+                <p>Have a project in mind or just want to say hello? Feel free to reach out!</p>
+                <form action="#">
+                    <label for="name">Name: <input type="text"></label>
+                    <label for="name">Email: <input type="email"></label>
+                    <label for="name">Message:<textarea placeholder="write message here......."></textarea></label>
+                    <button type="submit" id="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer> <!--The footer tag is used to define the content at the bottom of webpagel-->
+        All rights are reserved &copy; till 2025
+    </footer>
+</body>
+</html>
